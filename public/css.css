@@ -1,0 +1,45 @@
+body{
+    position: relative;
+    width: 1920px;
+height: 1024px;
+
+background: #DAE1F3;
+}
+
+.bar{
+    position: absolute;
+    width: 1800px;
+    height: 75px;
+    left: 60px;
+    top: 5px;
+}
+
+.left{
+    position: absolute;
+    width: 33%;
+    height: 75px;
+    left: 60px;
+    top: 30px;
+    clip-path: polygon(0% 0%, 70% 0, 100% 100%, 0% 100%);
+    background: #3B8BB8;
+}
+
+.right{
+    position: absolute;
+    width: 66%;
+    height: 75px;
+    left: 472.27px;
+    top: 30px;
+    clip-path: polygon(25% 0%, 100% 0, 100% 100%, 10% 100%, 0 0);
+    background: #EFE7E7;
+
+}
+
+.home{
+    position: absolute;
+    width: 100px;
+    height: 36px;
+    left: 811px;
+    top: 38px;
+
+}
