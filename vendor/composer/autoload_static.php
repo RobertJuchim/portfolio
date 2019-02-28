@@ -35,8 +35,10 @@ class ComposerStaticInit16b14234fdfddf021e2665b18c3b5b68
             'Symfony\\Component\\Config\\' => 25,
             'Symfony\\Component\\Cache\\' => 24,
             'Symfony\\Bundle\\TwigBundle\\' => 26,
+            'Symfony\\Bundle\\MakerBundle\\' => 27,
             'Symfony\\Bundle\\FrameworkBundle\\' => 31,
             'Symfony\\Bridge\\Twig\\' => 20,
+            'Sensio\\Bundle\\FrameworkExtraBundle\\' => 35,
         ),
         'P' => 
         array (
@@ -44,6 +46,14 @@ class ComposerStaticInit16b14234fdfddf021e2665b18c3b5b68
             'Psr\\Log\\' => 8,
             'Psr\\Container\\' => 14,
             'Psr\\Cache\\' => 10,
+            'PhpParser\\' => 10,
+        ),
+        'D' => 
+        array (
+            'Doctrine\\Common\\Inflector\\' => 26,
+            'Doctrine\\Common\\Cache\\' => 22,
+            'Doctrine\\Common\\Annotations\\' => 28,
+            'Doctrine\\Common\\' => 16,
         ),
         'A' => 
         array (
@@ -129,6 +139,10 @@ class ComposerStaticInit16b14234fdfddf021e2665b18c3b5b68
         array (
             0 => __DIR__ . '/..' . '/symfony/twig-bundle',
         ),
+        'Symfony\\Bundle\\MakerBundle\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/maker-bundle/src',
+        ),
         'Symfony\\Bundle\\FrameworkBundle\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/framework-bundle',
@@ -136,6 +150,10 @@ class ComposerStaticInit16b14234fdfddf021e2665b18c3b5b68
         'Symfony\\Bridge\\Twig\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/twig-bridge',
+        ),
+        'Sensio\\Bundle\\FrameworkExtraBundle\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/sensio/framework-extra-bundle',
         ),
         'Psr\\SimpleCache\\' => 
         array (
@@ -153,6 +171,29 @@ class ComposerStaticInit16b14234fdfddf021e2665b18c3b5b68
         array (
             0 => __DIR__ . '/..' . '/psr/cache/src',
         ),
+        'PhpParser\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
+        ),
+        'Doctrine\\Common\\Inflector\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/inflector/lib/Doctrine/Common/Inflector',
+        ),
+        'Doctrine\\Common\\Cache\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/cache/lib/Doctrine/Common/Cache',
+        ),
+        'Doctrine\\Common\\Annotations\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/annotations/lib/Doctrine/Common/Annotations',
+        ),
+        'Doctrine\\Common\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/common/lib/Doctrine/Common',
+            1 => __DIR__ . '/..' . '/doctrine/event-manager/lib/Doctrine/Common',
+            2 => __DIR__ . '/..' . '/doctrine/persistence/lib/Doctrine/Common',
+            3 => __DIR__ . '/..' . '/doctrine/reflection/lib/Doctrine/Common',
+        ),
         'App\\Tests\\' => 
         array (
             0 => __DIR__ . '/../..' . '/tests',
@@ -169,6 +210,17 @@ class ComposerStaticInit16b14234fdfddf021e2665b18c3b5b68
             'Twig_' => 
             array (
                 0 => __DIR__ . '/..' . '/twig/twig/lib',
+            ),
+        ),
+        'D' => 
+        array (
+            'Doctrine\\Common\\Lexer\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/doctrine/lexer/lib',
+            ),
+            'Doctrine\\Common\\Collections\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/doctrine/collections/lib',
             ),
         ),
     );
